@@ -18,7 +18,7 @@ class SensorSource extends RichParallelSourceFunction[SensorReading]{
                     ctx.collect(new SensorReading(r._1,System.currentTimeMillis(),r._2 + rand.nextGaussian() * 5))
                 }
             }
-            Thread.sleep(100)
+            Thread.sleep(300)
         }
     }
 

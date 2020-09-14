@@ -19,7 +19,7 @@ public class SensorSource extends RichParallelSourceFunction<SensorReading> {
             for (int i = 1; i <= 10; i++) {
                 ctx.collect(new SensorReading("Sensor_" + i, System.currentTimeMillis(), getRandomTemperature()));
             }
-            Thread.sleep(100);
+            Thread.sleep(300);
         }
     }
 

@@ -8,6 +8,9 @@ import org.apache.flink.api.java.tuple.Tuple3;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.api.windowing.time.Time;
 
+import java.util.Arrays;
+import java.util.Iterator;
+
 /**
  * @author ：hmz
  * @date ：Created in 2020/9/12 15:15
